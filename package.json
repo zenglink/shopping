@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.15.2",
@@ -32,6 +33,7 @@
     "eslint-plugin-prettier": "^4.2.5",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-vue": "^7.20.0",
+    "gh-pages": "^6.3.0",
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
     "postcss-px-to-viewport": "^1.1.1",
